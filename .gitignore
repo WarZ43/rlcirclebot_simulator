@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+#data
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache
+*.cache/
+*.egg-info/
+dist/
+build/
+
+# VSCode / PyCharm / Android Studio
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
