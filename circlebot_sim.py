@@ -19,11 +19,11 @@ def make_env(stage_n, render):
     #stage 2: learn to avoisd obstacles at high frequency
     #stage 3: learn to deal with starting angle changes
  
-stage_num = 3
+stage_num = 1
 #Configure if you want to repeat training on top of current weights
-repeat = False
+repeat = True
 #Configure if you want to train or just re-evaluate
-train = True
+train = False
 
 
 if __name__  == "__main__":    
